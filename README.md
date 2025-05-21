@@ -4,7 +4,7 @@ This is a personal repository for projects, experiments, and documentation. It's
 
 ## Cookbook
 
-The cookbook is a collection of over 60 tested recipes, presented in a structured HTML format for easy browsing and offline access.
+The cookbook is a collection of 76 (and growing) tested recipes, presented in a structured HTML format for easy browsing and offline access.
 
 [View the cookbook](https://markshomelab.com/cookbook/)
 
