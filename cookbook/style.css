@@ -1,12 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 body {
-  font-family: Georgia, serif;
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 0 1em;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #333;
+  font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  line-height: 1.65;
+  background-color: #fdfaf6;
+  color: #2c2c2c;
 }
 
 h1 {
