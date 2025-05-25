@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 :root {
-  --background-color: #fcf6e8;  /* warm eggshell */
+  /* Golden Harvest + Apricot Blush background */
+  --background-color: #fbe8e3;  /* apricot blush */
   --text-color: #403020;        /* espresso brown */
   --heading-color: #b76e20;     /* pumpkin orange */
   --accent-color: #deaa5b;      /* honey gold */
