@@ -1,49 +1,60 @@
+/* Golden Harvest color scheme – warm, high-contrast, appetite-friendly */
+:root {
+  --background-color: #fcf6e8;  /* warm eggshell */
+  --text-color: #403020;        /* espresso brown */
+  --heading-color: #b76e20;     /* pumpkin orange */
+  --accent-color: #deaa5b;      /* honey gold */
+  --hover-color: #ffdca8;       /* light caramel */
+}
+
 body {
   font-family: Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1 {
   font-size: 2em;
-  margin-top: 1.2em; /* restore vertical spacing */
-  border-bottom: 2px solid #ccc;
+  margin-top: 1.2em;
+  border-bottom: 2px solid var(--accent-color);
   padding-bottom: 0.2em;
+  color: var(--heading-color);
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: 1.2em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--accent-color);
+  color: var(--heading-color);
 }
 
 h3 {
   font-size: 1.2em;
-  margin: 0.3em 0 0.15em 0; /* Tighter top and bottom spacing */
-  color: #555;
+  margin: 0.3em 0 0.15em 0;
+  color: var(--heading-color);
 }
 
 p, ul, ol {
-  margin-bottom: 0.4em; /* Slightly tighter than before */
+  margin-bottom: 0.4em;
 }
 
 ul, ol {
   padding-left: 1.4em;
   margin-top: 0;
-  margin-bottom: 0.4em; /* Even less space below list */
+  margin-bottom: 0.4em;
 }
 
 li {
-  margin-bottom: 0.1em; /* Tightest reasonable line spacing for list items */
+  margin-bottom: 0.1em;
 }
 
 a {
-  color: #8b0000;
+  color: var(--heading-color);
   text-decoration: underline;
 }
 
 a:hover {
-  color: #c00;
+  color: var(--hover-color);
 }
