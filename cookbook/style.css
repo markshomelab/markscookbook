@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 :root {
-  /* Golden Harvest + Apricot Blush background */
-  --background-color: #e4b58f;  /* raw sienna wash */
-  --text-color: #403020;        /* espresso brown */
-  --heading-color: #b76e20;     /* pumpkin orange */
-  --accent-color: #deaa5b;      /* honey gold */
-  --hover-color: #ffdca8;       /* light caramel */
+--background-color: #e4b58f;  /* Raw Sienna */
+--text-color: #2c1a0d;        /* deeper espresso – sharp, legible */
+--heading-color: #a04900;     /* spiced orange – richer and clearer */
+--accent-color: #e6a04c;      /* warm gold */
+--hover-color: #ffdca8;       /* keep this for soft contrast */
 }
 
 body {
