@@ -1,23 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 :root {
-  --background-color: #3b1d14;  /* deep reddish brown (burnt red) */
-  --text-color: #f0e0d6;        /* warm beige or parchment */
-  --heading-color: #deaa5b;     /* golden pumpkin */
-  --accent-color: #deaa5b;
+  --background-color: #fcf6e8;  /* warm eggshell */
+  --text-color: #403020;        /* espresso brown */
+  --heading-color: #b76e20;     /* pumpkin orange */
+  --accent-color: #deaa5b;      /* honey gold */
   --hover-color: #ffdca8;       /* light caramel */
 }
 
-
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--background-color);
-
-}
-
 body {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.65;
   background-color: var(--background-color);
   color: var(--text-color);
 }
