@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 :root {
---background-color: #e4b58f;  /* Raw Sienna */
---text-color: #2a1405;  /* rich roasted brown – high contrast */
---heading-color: #a04900;     /* spiced orange – richer and clearer */
---accent-color: #e6a04c;      /* warm gold */
---hover-color: #ffdca8;       /* light caramel */
+  --background-color: #e4b58f;   /* Raw Sienna */
+  --text-color: #2a1405;         /* deep roasted brown */
+  --heading-color: #a04900;      /* spiced orange */
+  --accent-color: #e6a04c;       /* warm gold */
+  --hover-color: #ffdca8;        /* light caramel */
+
+  --card-background: #f9f3eb;
+  --card-border: #d6a77a;
 }
+
+/* ---------- Page Layout ---------- */
 
 html, body {
   margin: 0;
@@ -17,13 +22,17 @@ body {
   font-family: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
   font-size: 18px;
   line-height: 1.65;
+
   background-color: var(--background-color);
   color: var(--text-color);
+
   padding: 1.5em;
   max-width: 850px;
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+/* ---------- Headings ---------- */
 
 h1 {
   font-size: 2em;
@@ -35,30 +44,37 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  margin-top: 1.2em;
+  margin-top: 0;
   border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 0.15em;
   color: var(--heading-color);
 }
 
 h3 {
   font-size: 1.2em;
-  margin: 0.3em 0 0.15em 0;
+  margin: 0.4em 0 0.15em 0;
   color: var(--heading-color);
 }
 
-p, ul, ol {
+/* ---------- Text Blocks ---------- */
+
+p,
+ul,
+ol {
   margin-bottom: 0.4em;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.4em;
   margin-top: 0;
-  margin-bottom: 0.4em;
 }
 
 li {
   margin-bottom: 0.1em;
 }
+
+/* ---------- Links ---------- */
 
 a {
   color: var(--heading-color);
@@ -67,4 +83,34 @@ a {
 
 a:hover {
   color: var(--hover-color);
+}
+
+/* ---------- Recipe Card Layout ---------- */
+
+.recipe-card {
+
+  background: var(--card-background);
+
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+
+  padding: 28px 32px;
+
+  margin: 42px auto;
+
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+/* tighten spacing inside recipe cards */
+
+.recipe-card p,
+.recipe-card ul,
+.recipe-card ol {
+  margin-bottom: 0.35em;
+}
+
+/* remove extra margin at bottom */
+
+.recipe-card > *:last-child {
+  margin-bottom: 0;
 }
