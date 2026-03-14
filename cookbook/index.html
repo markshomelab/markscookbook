@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mark's Cookbook</title>
   <link href="style.css" rel="stylesheet" />
+
   <style>
+
     .intro {
-      margin-top: 1em;
-      font-size: 1.1em;
-      line-height: 1.6;
-      max-width: 800px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 2em;
+      font-size: 1.1em;
+      line-height: 1.6;
       text-align: justify;
-      color: #444;
+    }
+
+    .intro p {
+      margin: 0;
     }
 
     .chapters-heading {
@@ -85,6 +89,7 @@
     }
 
     @media (max-width: 700px) {
+
       .chapter-grid {
         grid-template-columns: 1fr;
       }
@@ -92,19 +97,26 @@
       .intro {
         text-align: left;
       }
+
     }
+
   </style>
 </head>
+
 <body>
+
   <h1>Mark's Cookbook</h1>
 
-  <p class="intro">
-    Embark on a delicious adventure with Mark's Cookbook, a vibrant and growing collection of recipes spanning continents from Asia to the Americas, Europe to Africa. Heavily inspired by and in homage to my mother and her very own cookbook, <em>Cathy's Cucina</em>, this culinary tapestry weaves together sophisticated dishes crafted with French techniques like silky crème brûlée and tender chicken Dijon with charming vintage recipes such as creamy avocado salmon mousse and classic Knorr spinach dip. From spicy Trini-Chinese chicken to hearty Irish beef stew, each chapter delivers both approachable and more complex recipes for cooks of all levels. Savor the global flavors and nostalgic comforts that make every meal a story worth sharing.
-  </p>
+  <div class="chapter-card intro">
+    <p>
+      Embark on a delicious adventure with Mark's Cookbook, a vibrant and growing collection of recipes spanning continents from Asia to the Americas, Europe to Africa. Heavily inspired by and in homage to my mother and her very own cookbook, <em>Cathy's Cucina</em>, this culinary tapestry weaves together sophisticated dishes crafted with French techniques like silky crème brûlée and tender chicken Dijon with charming vintage recipes such as creamy avocado salmon mousse and classic Knorr spinach dip. From spicy Trini-Chinese chicken to hearty Irish beef stew, each chapter delivers both approachable and more complex recipes for cooks of all levels. Savor the global flavors and nostalgic comforts that make every meal a story worth sharing.
+    </p>
+  </div>
 
   <h2 class="chapters-heading">Cookbook Chapters</h2>
 
   <div class="chapter-grid">
+
     <section class="chapter-card">
       <h3>Chapter 1: Breakfast</h3>
       <p class="chapter-count">5 recipes</p>
@@ -192,10 +204,13 @@
       </ul>
       <a class="chapter-link" href="8desserts.html">View Desserts and Sweet Treats &rarr;</a>
     </section>
+
   </div>
 
   <p class="footer-note">
     Questions, corrections, or feedback? <a href="mailto:mark@markshomelab.com">Email me</a>.
   </p>
+
 </body>
+
 </html>
