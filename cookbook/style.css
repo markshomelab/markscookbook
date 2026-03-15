@@ -202,6 +202,11 @@ a:hover {
   white-space: nowrap;
 }
 
+.site-nav .nav-item:not(:last-child)::after {
+  content: " · ";
+  opacity: 0.6;
+}
+
 .site-nav a {
   text-decoration: none;
   font-weight: 500;
@@ -210,11 +215,6 @@ a:hover {
 .site-nav a:hover {
   color: var(--hover-color);
   text-decoration: underline;
-}
-
-.site-nav .divider {
-  margin: 0 6px;
-  opacity: 0.6;
 }
 
 .site-nav .current {
