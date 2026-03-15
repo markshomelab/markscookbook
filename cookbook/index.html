@@ -6,113 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mark's Cookbook</title>
   <link href="style.css" rel="stylesheet" />
-
-  <style>
-
-    .intro {
-      max-width: 820px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 2em;
-      font-size: 1.1em;
-      line-height: 1.7;
-      text-align: left;
-    }
-
-    .intro.chapter-card {
-      padding: 1.2em 1.35em;
-    }
-
-    .intro p {
-      margin: 0;
-    }
-
-    .chapters-heading {
-      margin-top: 1.4em;
-      margin-bottom: 0.8em;
-    }
-
-    .chapter-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1.25em;
-      margin-top: 1em;
-      margin-bottom: 2em;
-    }
-
-    .chapter-card {
-      background: rgba(255, 248, 238, 0.28);
-      border: 1px solid rgba(160, 73, 0, 0.18);
-      border-radius: 10px;
-      padding: 1em 1.1em;
-      box-sizing: border-box;
-      transition: background-color 0.2s ease, transform 0.15s ease;
-    }
-
-    .chapter-card:hover {
-      background: rgba(255, 248, 238, 0.4);
-      transform: translateY(-1px);
-    }
-
-    .chapter-card h3 {
-      margin: 0 0 0.2em 0;
-      font-size: 1.3em;
-      line-height: 1.2;
-    }
-
-    .chapter-count {
-      margin: 0 0 0.7em 0;
-      font-size: 0.98em;
-      color: #5a3420;
-    }
-
-    .chapter-preview {
-      margin: 0 0 0.85em 1.1em;
-      padding: 0;
-    }
-
-    .chapter-preview li {
-      margin-bottom: 0.2em;
-    }
-
-    .chapter-link {
-      display: inline-block;
-      font-weight: bold;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-
-    .chapter-link:hover {
-      border-bottom-color: currentColor;
-      text-decoration: none;
-    }
-
-    .footer-note {
-      margin-top: 3em;
-      text-align: center;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 700px) {
-
-      .chapter-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .intro {
-        text-align: left;
-      }
-
-    }
-
-  </style>
 </head>
 
 <body>
 
   <h1>Mark's Cookbook</h1>
 
-  <div class="chapter-card intro">
+  <div class="card intro">
     <p>
       Embark on a delicious adventure with Mark's Cookbook, a vibrant and growing collection of recipes spanning continents from Asia to the Americas, Europe to Africa. Heavily inspired by and in homage to my mother and her very own cookbook, <em>Cathy's Cucina</em>, this culinary tapestry weaves together sophisticated dishes crafted with French techniques like silky crème brûlée and tender chicken Dijon with charming vintage recipes such as creamy avocado salmon mousse and classic Knorr spinach dip. From spicy Trini-Chinese chicken to hearty Irish beef stew, each chapter delivers both approachable and more complex recipes for cooks of all levels. Savor the global flavors and nostalgic comforts that make every meal a story worth sharing.
     </p>
@@ -122,7 +22,7 @@
 
   <div class="chapter-grid">
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 1: Breakfast</h3>
       <p class="chapter-count">5 recipes</p>
       <ul class="chapter-preview">
@@ -130,10 +30,10 @@
         <li>Breakfast Strata</li>
         <li>Fisherman’s Shakshuka</li>
       </ul>
-      <a class="chapter-link" href="1breakfast.html">View Breakfast &rarr;</a>
+      <a class="chapter-link" href="1breakfast.html" target="_blank" rel="noopener">View Breakfast &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 2: Entrées</h3>
       <p class="chapter-count">19 recipes</p>
       <ul class="chapter-preview">
@@ -141,10 +41,10 @@
         <li>Chicken Piccata</li>
         <li>Irish Beef Stew with Stout</li>
       </ul>
-      <a class="chapter-link" href="2entrees.html">View Entrées &rarr;</a>
+      <a class="chapter-link" href="2entrees.html" target="_blank" rel="noopener">View Entrées &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 3: Pasta, Noodles and Grains</h3>
       <p class="chapter-count">8 recipes</p>
       <ul class="chapter-preview">
@@ -152,10 +52,10 @@
         <li>American Spaghetti Carbonara</li>
         <li>Gochujang Garlic Noodles</li>
       </ul>
-      <a class="chapter-link" href="3grains.html">View Pasta, Noodles and Grains &rarr;</a>
+      <a class="chapter-link" href="3grains.html" target="_blank" rel="noopener">View Pasta, Noodles and Grains &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 4: Appetizers, Salads and Side Dishes</h3>
       <p class="chapter-count">16 recipes</p>
       <ul class="chapter-preview">
@@ -163,10 +63,10 @@
         <li>Golden Gazpacho with Peaches and Tomatoes</li>
         <li>Chipotle Coleslaw</li>
       </ul>
-      <a class="chapter-link" href="4sides.html">View Appetizers, Salads and Side Dishes &rarr;</a>
+      <a class="chapter-link" href="4sides.html" target="_blank" rel="noopener">View Appetizers, Salads and Side Dishes &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 5: Sauces, Dressings and Condiments</h3>
       <p class="chapter-count">17 recipes</p>
       <ul class="chapter-preview">
@@ -174,10 +74,10 @@
         <li>Classic Burger Sauce</li>
         <li>Stir Fry Sauce</li>
       </ul>
-      <a class="chapter-link" href="5sauces.html">View Sauces, Dressings and Condiments &rarr;</a>
+      <a class="chapter-link" href="5sauces.html" target="_blank" rel="noopener">View Sauces, Dressings and Condiments &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 6: Spice Mixes and Seasonings</h3>
       <p class="chapter-count">7 recipes</p>
       <ul class="chapter-preview">
@@ -185,10 +85,10 @@
         <li>Taco Seasoning</li>
         <li>Za’atar</li>
       </ul>
-      <a class="chapter-link" href="6seasonings.html">View Spice Mixes and Seasonings &rarr;</a>
+      <a class="chapter-link" href="6seasonings.html" target="_blank" rel="noopener">View Spice Mixes and Seasonings &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 7: Breads</h3>
       <p class="chapter-count">5 recipes</p>
       <ul class="chapter-preview">
@@ -196,10 +96,10 @@
         <li>Ciabatta</li>
         <li>Bánh Mì Baguettes</li>
       </ul>
-      <a class="chapter-link" href="7breads.html">View Breads &rarr;</a>
+      <a class="chapter-link" href="7breads.html" target="_blank" rel="noopener">View Breads &rarr;</a>
     </section>
 
-    <section class="chapter-card">
+    <section class="card chapter-card">
       <h3>Chapter 8: Desserts and Sweet Treats</h3>
       <p class="chapter-count">7 recipes</p>
       <ul class="chapter-preview">
@@ -207,7 +107,7 @@
         <li>Peach Cobbler</li>
         <li>Easy Crème Brûlée</li>
       </ul>
-      <a class="chapter-link" href="8desserts.html">View Desserts and Sweet Treats &rarr;</a>
+      <a class="chapter-link" href="8desserts.html" target="_blank" rel="noopener">View Desserts and Sweet Treats &rarr;</a>
     </section>
 
   </div>
