@@ -174,4 +174,61 @@ a:hover {
   display: inline-block;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px
+  border-bottom: 1px solid transparent;
+}
+
+.chapter-link:hover {
+  color: var(--hover-color);
+  border-bottom-color: currentColor;
+  text-decoration: none;
+}
+
+/* ============================= */
+/* Site Navigation */
+/* ============================= */
+
+.site-nav {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  padding-bottom: 10px;
+  font-size: 1.05em;
+  line-height: 1.8;
+  border-bottom: 1px solid rgba(160, 73, 0, 0.2);
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.site-nav .divider {
+  margin: 0 6px;
+  opacity: 0.6;
+}
+
+.site-nav .current {
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.footer-note {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+@media (max-width: 700px) {
+  .chapter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro {
+    text-align: left;
+  }
+}
