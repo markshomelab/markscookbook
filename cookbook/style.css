@@ -189,8 +189,8 @@ a:hover {
 
 .site-nav {
   text-align: center;
-  margin-top: 12px;
-  margin-bottom: 28px;
+  margin-top: 6px;
+  margin-bottom: 24px;
   padding-bottom: 10px;
   font-size: 1.05em;
   line-height: 1.8;
@@ -214,7 +214,7 @@ a:hover {
 
 .site-nav .current {
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--heading-color);
 }
 
 .footer-note {
