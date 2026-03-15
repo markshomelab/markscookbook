@@ -14,6 +14,7 @@ if not file_path:
     print("No file selected.")
     exit()
 
+# load HTML
 with open(file_path, "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
@@ -30,7 +31,7 @@ for element in list(body.children):
             new_body.append(current_section)
 
         current_section = soup.new_tag("section")
-        current_section["class"] = "recipe-card"
+        current_section["class"] = ["card", "recipe-card"]
         current_section.append(element)
 
     else:
@@ -48,8 +49,8 @@ body.clear()
 for item in new_body:
     body.append(item)
 
-# overwrite the same file
+# overwrite the same file with formatted HTML
 with open(file_path, "w", encoding="utf-8") as f:
-    f.write(str(soup))
+    f.write(soup.prettify())
 
 print("Finished. File updated:", file_path)
