@@ -86,6 +86,11 @@ a:hover {
   border: 1px solid var(--card-border);
   border-radius: 12px;
   box-sizing: border-box;
+  transition: background-color 0.2s ease;
+}
+
+.card:hover {
+  background: var(--card-background-hover);
 }
 
 .recipe-card {
@@ -98,7 +103,6 @@ a:hover {
 .recipe-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 14px var(--card-shadow);
-  background: var(--card-background-hover);
 }
 
 .recipe-card p,
@@ -145,7 +149,6 @@ a:hover {
 }
 
 .chapter-card:hover {
-  background: var(--card-background-hover);
   transform: translateY(-1px);
 }
 
