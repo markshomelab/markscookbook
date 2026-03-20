@@ -251,8 +251,3 @@ a:hover {
     text-align: left;
   }
 }
-.card:hover,
-.chapter-card:hover,
-.recipe-card:hover {
-  background: hotpink !important;
-}
