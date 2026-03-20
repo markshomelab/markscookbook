@@ -144,8 +144,12 @@ a:hover {
 }
 
 .chapter-card {
+  display: block;
   padding: 1em 1.1em;
+  text-decoration: none;
+  color: inherit;
   transition: background-color 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
 }
 
 .chapter-card:hover {
