@@ -8,7 +8,7 @@
   --hover-color: #c75a1a;
 
   --card-background: rgba(255, 248, 238, 0.65);
-  --card-background-hover: rgba(255, 248, 238, 1);
+  --card-background-hover: rgba(255, 248, 238, 0.8);
   --card-border: rgba(160, 73, 0, 0.18);
   --card-shadow: rgba(0, 0, 0, 0.08);
 
