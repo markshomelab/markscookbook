@@ -289,9 +289,8 @@ a:hover {
 .hero h1::after {
   content: "";
   display: block;
-  width: 160px;
-  height: 2px;
-  margin: 10px auto 0;
-  background: #c97a2b;
-  border-radius: 2px;
+  width: 120px;
+  height: 1px;
+  margin: 12px auto 0;
+  background: rgba(0, 0, 0, 0.3);
 }
