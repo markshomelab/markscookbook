@@ -279,7 +279,19 @@ a:hover {
   position: relative;
   z-index: 1;
   margin: 0;
-  padding: 0.4em 0.9em;
-  background: rgba(247, 241, 231, 0.82);
-  border-radius: 999px;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  color: #8b4513;
+  text-align: center;
+}
+
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 2px;
+  margin: 10px auto 0;
+  background: #c97a2b;
+  border-radius: 2px;
 }
